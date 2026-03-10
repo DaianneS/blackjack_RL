@@ -5,20 +5,20 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-Data_Visualization-4C72B0.svg)](https://seaborn.pydata.org/)
 [![Reinforcement Learning](https://img.shields.io/badge/AI-Reinforcement_Learning-FF6F00.svg)]()
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto de Ciência de Dados aplica algoritmos de **Reinforcement Learning (Aprendizado por Reforço)** para resolver o jogo de Blackjack. O diferencial desta abordagem é o afastamento da premissa teórica de um "baralho infinito". 
 
 O ambiente foi modelado para simular as condições reais de um cassino: um *Shoe* finito de 6 baralhos onde as cartas são compradas sem reposição imediata. Isso permitiu integrar o sistema **Hi-Lo de Contagem de Cartas**, capacitando o agente de Inteligência Artificial (treinado via **Q-Learning**) a adaptar sua estratégia de acordo com a "temperatura" da mesa (True Count).
 
-## 🎯 Objetivos e Resultados
+##  Objetivos e Resultados
 
 - **Implementar do zero** o ambiente lógico do Blackjack (regras, dealer, compra contínua de cartas).
 - **Estabelecer baselines** rodando milhões de simulações com políticas estáticas (Aleatória e Política Básica de Casino).
 - **Treinar um Agente de Q-Learning** lidando com a Maldição da Dimensionalidade através de *State Binning* para o True Count.
 - **Provar a eficácia da Contagem de Cartas**: O agente demonstrou matematicamente a capacidade de reverter dogmas da Política Básica. Por exemplo: na clássica "pior mão" (Jogador 16 vs Dealer 10), o agente aprendeu autonomamente a trocar a ação de *Hit* (pedir carta) para *Stick* (parar) quando o baralho se torna favorável/quente (`True Count >= 2`).
 
-## 📂 Estrutura do Repositório
+##  Estrutura do Repositório
 
 O projeto adota fortes práticas de Engenharia de Software, separando a lógica de negócio dos notebooks de experimentação:
 
@@ -42,7 +42,7 @@ O projeto adota fortes práticas de Engenharia de Software, separando a lógica 
 
 ```
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. **Clone o repositório:**
 ```bash
@@ -69,7 +69,7 @@ Recomenda-se rodar os notebooks da pasta `notebooks/` na ordem estabelecida:
 
 
 
-## 🏗️ Arquitetura e Próximos Passos (Escalabilidade)
+##  Arquitetura e Próximos Passos (Escalabilidade)
 
 O escopo atual foca na prova de conceito e na matemática do modelo em Python local. O próximo passo de arquitetura deste projeto envolve a migração destes *pipelines* de simulação para um ambiente de Big Data escalável.
 
@@ -85,5 +85,3 @@ A visão de futuro inclui orquestrar a geração massiva de episódios utilizand
 
 ```
 
-
-```
