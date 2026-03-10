@@ -1,0 +1,10 @@
+﻿politica,resultado,qtd,total_episodios,taxa_resultado
+aleatoria,derrota,64011,100000,0.64011
+aleatoria,empate,4781,100000,0.04781
+aleatoria,vitoria,31208,100000,0.31208
+basica,derrota,48605,100000,0.48605
+basica,empate,10468,100000,0.10468
+basica,vitoria,40927,100000,0.40927
+qlearning,derrota,49019,100000,0.49019
+qlearning,empate,8779,100000,0.08779
+qlearning,vitoria,42202,100000,0.42202

@@ -1,0 +1,4 @@
+﻿politica,episodios,recompensa_media,recompensa_total,total_medio_jogador,total_medio_dealer,passos_medios,vitoria,derrota,empate,taxa_vitoria,taxa_derrota,taxa_empate,taxa_estouro_jogador,taxa_estouro_dealer
+qlearning,100000,-0.0555,-5550,19.07966,19.42846,1.57705,42542,48092,9366,0.42542,0.48092,0.09366,0.18813,0.23572
+basica,100000,-0.07919,-7919,20.31796,18.69501,1.62601,40814,48733,10453,0.40814,0.48733,0.10453,0.2811,0.20302
+aleatoria,100000,-0.32579,-32579,18.30806,18.69384,1.34464,31424,64003,4573,0.31424,0.64003,0.04573,0.28082,0.20287

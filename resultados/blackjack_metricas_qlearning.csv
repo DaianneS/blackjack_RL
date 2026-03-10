@@ -1,0 +1,2 @@
+﻿politica,episodios_treinamento,episodios_avaliacao,alpha,gamma,epsilon_inicial,epsilon_final,epsilon_min,epsilon_decay,recompensa_media_treinamento,recompensa_media_avaliacao,taxa_vitoria_avaliacao,taxa_derrota_avaliacao,taxa_empate_avaliacao,passos_medios_avaliacao
+qlearning,100000,100000,0.1,1.0,1.0,0.05,0.05,0.9995,-0.09908,-0.06817,0.42202,0.49019,0.08779,1.63859
