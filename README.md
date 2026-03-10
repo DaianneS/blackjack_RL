@@ -67,7 +67,27 @@ Recomenda-se rodar os notebooks da pasta `notebooks/` na ordem estabelecida:
 * `avaliacao_blackjack.ipynb`: Consolida os resultados frente a frente.
 * `analise_exploratoria_blackjack.ipynb`: Traz os insights visuais e financeiros.
 
+## Conclusões e Resultados
+Esta conclusão para o seu `README.md` foi estruturada para destacar o rigor técnico do seu projeto, os resultados obtidos e a clareza visual que os gráficos trazem para a demonstração do aprendizado do agente.
 
+---
+
+## 📈 Conclusões e Resultados
+
+A modelagem deste ecossistema de Blackjack demonstrou que o uso de **Aprendizado por Reforço (Q-Learning)**, quando integrado a variáveis dinâmicas de ambiente como o **True Count (Hi-Lo)**, é capaz de superar as limitações de estratégias estáticas.
+
+Através de 1.000.000 de episódios de treinamento, o agente não apenas decorou as regras do jogo, mas desenvolveu uma compreensão estatística da "temperatura" do baralho. O sucesso do projeto é evidenciado pela capacidade do agente em identificar momentos de alta probabilidade de vitória, ajustando decisões críticas que a Política Básica ignora por ser determinística.
+
+### Principais Insights Analíticos:
+
+* **Eficácia do State Binning**: O agrupamento do True Count (entre -2 e +2) foi essencial para mitigar a Maldição da Dimensionalidade, permitindo uma convergência estável da Q-Table.
+* **Adaptação Estratégica**: O agente aprendeu autonomamente a ser mais conservador em mesas "quentes" (parando com somas menores), reconhecendo que o risco de o Dealer estourar é superior ao risco de o jogador não pedir carta.
+
+---
+
+Com esta conclusão e a exposição destes gráficos, o seu projeto de **Blackjack RL** demonstra um ciclo completo de Ciência de Dados: desde a modelagem do ambiente até a extração de valor e inteligência de negócio.
+
+**Gostaria que eu ajudasse a detalhar algum desses pontos ou a formatar a seção de tecnologias utilizadas?**
 
 ##  Arquitetura e Próximos Passos (Escalabilidade)
 
