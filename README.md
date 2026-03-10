@@ -23,8 +23,6 @@ O ambiente foi modelado para simular as condições reais de um cassino: um *Sho
 O projeto adota fortes práticas de Engenharia de Software, separando a lógica de negócio dos notebooks de experimentação:
 
 ```text
-├── dados/                   # Logs brutos das simulações (treino e testes)
-├── exports/                 # Arquivos exportados pelo sistema
 ├── graficos/                # Visualizações analíticas geradas
 ├── modelos/                 # Q-Tables consolidadas (.csv)
 ├── resultados/              # Métricas agregadas e taxas de conversão
@@ -32,12 +30,11 @@ O projeto adota fortes práticas de Engenharia de Software, separando a lógica 
 │   ├── ambiente_blackjack.ipynb
 │   ├── politica_basica.ipynb
 │   ├── qlearning_blackjack.ipynb
-│   ├── avaliacao_blackjack.ipynb
-│   └── analise_exploratoria_blackjack.ipynb
+│   └── avaliacao_blackjack.ipynb
+├── analise_exploratoria_blackjack.ipynb # Análise dos resultados e criação dos gráficos
 ├── blackjack_env.py         # Core: Física do jogo e classe ShoeBlackjack
 ├── config_projeto.py        # Configuração global e mapeamento de diretórios
 ├── utils_io.py              # Funções utilitárias para I/O padronizado
-├── .gitignore               # Exclusão de caches e arquivos indesejados
 └── README.md                # Documentação do projeto
 
 ```
